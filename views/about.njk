@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="icon" href="/assets/logo.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodfy</title>
+{% extends "layout.njk" %}}
 
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/about.css">
-</head>
-<body>
-    <header>
-        <a href="/"><img class="logo" src="/assets/logo.png" alt="logomarca"></a>
-        <nav>
-            <a class="selected" href="/about">Sobre</a>
-            <a href="/recipes">Receitas</a>
-        </nav>
-    </header>
+{% block styles %}
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/styles/about.css">
+{% endblock styles %}
 
+{% block content %}
     <div class="content">
 
         <div class="text-box">
@@ -32,11 +20,6 @@
             <h3>Nossas receitas</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquam consequatur enim sint iste reprehenderit, illo laboriosam eius officia delectus dolor labore quidem minima fugit eos quod possimus, qui mollitia a libero. Minima molestiae odit quae in placeat aspernatur autem. Dignissimos at perferendis explicabo quia dolor hic libero beatae porro, vel fuga minima recusandae! Repellendus, sint atque dicta labore, cumque animi eos, ex consequatur dolorem dolores iste. Id, quisquam nisi.</p>
         </div>
-    
+        
     </div>
-
-    <footer>
-        <p>Todos direitos reservados, receitas Foodfy.</p>
-    </footer>
-</body>
-</html>
+{% endblock content %}
