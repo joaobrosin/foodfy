@@ -3,7 +3,8 @@
 </div>
 
 <div align="center">
-    <img  width="600px" src="./public/assets/foodfy-layout.gif">
+    <img src="./public/assets/layout.png">
+    <img src="./public/assets/foodfy-layout.gif">
 </div>
 
 # Table of Contents
