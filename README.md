@@ -3,31 +3,33 @@
 </div>
 
 <div align="center">
-    <img  width="600px" src="./public/assets/layout.png">
+    <img  width="600px" src="./public/assets/foodfy-layout.gif">
 </div>
 
-# Indice
-- [Sobre](#-sobre)
-- [Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [Como baixar o projeto](#-como-baixar-o-projeto)
+# Table of Contents
+- [About](#-about)
+- [Technologies](#-technologies)
+<!-- - [Installation](#-installation) -->
 
 ---
 
-## 📝 Sobre
-O projeto **Foodfy** é um projeto que foi elaborado elaborado durante o **Bootcamp Launchbase** da [Rocketseat](https://rocketseat.com.br). Este foi um dos primeiros projetos do Bootcamp, em que incrementei algumas coisas de minha preferência e dei responsividade a página.
+## 📝 About
+The **Foodfy** project is a recipe platform developed during the ***Launchbase Bootcamp*** of [Rocketseat](https://rocketseat.com.br)
+. This was one of the first projects of the Bootcamp, which I increased some things of my preference and made the page responsive. 
 
 ---
-
-## 🚀 Tecnologias utilizadas
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+## 🚀 Technologies
+The project was developed with the following technologies: 
 
 - HTML
 - CSS
 - JavaScript
+- Node.js
+- Nunjucks
 
 ---
 
-## 👇 Como baixar o projeto
+<!-- ## 👇 Como baixar o projeto
 ```bash
     # Clonar o repositório
     $ git clone https://github.com/joaobrosin/foodfy
@@ -41,6 +43,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
     # Iniciar o projeto
     $ yarn start
 ```
----
+--- -->
 
-Desenvolvido por ***João Brosin***.
+
+Made with 💙 by ***João Brosin***.
