@@ -134,12 +134,28 @@ section.samples h2 {
     margin-top: 10px;
 }
 
+.close-button p:hover{
+    font-weight: bold;
+}
 
 .modal-background.active {
     opacity: 1; 
     visibility: visible;
 }
 
+.gotorecipe {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.gotorecipe a{
+    color: black;
+    text-decoration: none;
+}
+
+.gotorecipe a:hover{
+    font-weight: bold;
+}
 
 /* responsivity of the food images (cards) */
 

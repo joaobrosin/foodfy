@@ -16,10 +16,10 @@
 
         <div class="cards">
             {% for recipe in recipes %}
-            <div class="card" id="{{recipe.image}}">
+            <div class="card" id="{{recipe.id}}"> {# AQUI EU TIREI recipe.image #}
                 <img src="{{recipe.image}}" alt="Imagem {{recipe.description}}">
                 <p class="image-description">{{recipe.title}}</p>
-                <p class="references">{{recipe.author}}</p>
+                <p class="references">Por {{recipe.author}}</p>
             </div>
             {% endfor %}
             
@@ -34,6 +34,7 @@
             <div class="modal-text">
                 
             </div>
+            
             <div class="close-button">
                 <p>fechar</p>
             </div>

@@ -1,0 +1,65 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 0 10%;
+}
+
+.dish {
+    width: 100%;
+    max-width: 1400px;
+    margin:auto;
+    border-radius: 8px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.author {
+    text-align: center;
+    color: #999999;
+    margin-bottom: 50px;
+}
+
+h2 {
+    justify-self: flex-start;
+    display: block;
+
+    margin: 15px auto 15px 5%;
+}
+
+p.text {
+    justify-self: flex-start;
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto 40px 5%;
+}
+
+li {
+    justify-self: flex-start;
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto 5px 5%;
+}
+
+span {
+    font-size: 13px;
+    color: #999999;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.ingredientList {
+    display: block;
+}
+
+.prepareList {
+    display: block;
+}
+
+.informationList {
+    display: block;
+}

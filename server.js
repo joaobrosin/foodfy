@@ -26,6 +26,23 @@ server.get('/recipes', function(req, res){
     return res.render('recipes', {recipes})
 })
 
+server.get('/dish', function(req, res){
+    const id = req.query.id
+
+    const dish = recipes.find(function(dish){
+        if (dish.id == id){
+            return true
+        }
+
+    })
+
+    if (!dish) {
+        return res.send("Dish not found!")
+    }
+
+    return res.render("dish", {recipe: dish})
+})
+
 server.listen(5000, function(){
     console.log('Server is running')
 })
