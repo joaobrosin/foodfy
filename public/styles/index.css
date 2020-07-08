@@ -74,7 +74,7 @@ section.samples h2 {
 
 /* MODAL */
 
-.modal-background {
+/* .modal-background {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
@@ -155,7 +155,7 @@ section.samples h2 {
 
 .gotorecipe a:hover{
     font-weight: bold;
-}
+} */
 
 /* responsivity of the food images (cards) */
 
