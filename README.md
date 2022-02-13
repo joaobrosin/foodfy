@@ -30,7 +30,7 @@ The project was developed with the following technologies:
 
 ---
 
-<!-- ## 👇 Como baixar o projeto
+## 👇 Como baixar o projeto
 ```bash
     # Clonar o repositório
     $ git clone https://github.com/joaobrosin/foodfy
@@ -39,12 +39,12 @@ The project was developed with the following technologies:
     $ cd foodfy
 
     # Instalar as dependências
-    $ yarn install
+    $ npm
 
     # Iniciar o projeto
-    $ yarn start
+    $ npm start
 ```
---- -->
+---
 
 
 Made with 💙 by ***João Brosin***.

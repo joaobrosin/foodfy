@@ -16,37 +16,18 @@
 
         <div class="cards">
             {% for recipe in recipes %}
-            <div class="card" id="{{recipe.id}}"> {# AQUI EU TIREI recipe.image #}
-                <img src="{{recipe.image}}" alt="Imagem {{recipe.description}}">
-                <p class="image-description">{{recipe.title}}</p>
-                <p class="references">Por {{recipe.author}}</p>
-            </div>
+                <div class="card" id="{{recipe.id}}"> {# AQUI EU TIREI recipe.image #}
+                    <img src="{{recipe.image}}" alt="Imagem {{recipe.description}}">
+                    <p class="image-description">{{recipe.title}}</p>
+                    <p class="references">Por {{recipe.author}}</p>
+                </div>
             {% endfor %}
-            
         </div>
     </section>
-
-
-    {# <!-- MODAL -->
-    <div class="modal-background">
-        <div class="modal">
-            <img class="modalImage" src="" alt="">
-            <div class="modal-text">
-                
-            </div>
-            
-            <div class="close-button">
-                <p>fechar</p>
-            </div>
-            
-        </div>
-
-    </div> #}
 
 </div>
 {% endblock content %}
 
 {% block scripts %}
-<script src="/scripts/scripts.js"></script>
+    <script src="/scripts/scripts.js"></script>
 {% endblock scripts %}
-

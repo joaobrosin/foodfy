@@ -1,16 +1,16 @@
 div .text-box {
-    text-align: left;
-    margin: 0 10%;
+    text-align          : left;
+    margin              : 0 10%;
 }
 
 div .text-box p {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    color: #444444;;
+    margin-top          : 20px;
+    margin-bottom       : 30px;
+    color               : #444444;;
 }
 
-@media (max-width: 600px) {
+@media (max-width       : 600px) {
     header .logo {
-        margin-right: 45px;
+        margin-right    : 45px;
     }
 }
